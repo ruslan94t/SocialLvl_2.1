@@ -17,10 +17,16 @@
     color: white;
 
 }
-.item:hover{
+.item a:hover{
     color:green;
     border-bottom: 2px solid green;
 }
 .item a{
+text-decoration: none;
+    color: white;
+}
 
+.item a.active{
+    color:green;
+    border-bottom: 2px solid green;
 }
