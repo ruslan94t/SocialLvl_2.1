@@ -16,7 +16,9 @@ function Navbar(props) {
                 </NavLink>
             </div>
             <div className={s.item}>
-                <a>News</a>
+                <NavLink to="users" activeClassName={s.active} >
+                    users
+                </NavLink>
             </div>
             <div className={s.item}>
                 <a>Setings</a>
